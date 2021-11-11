@@ -1,3 +1,5 @@
+== This fork is for personal use and is focused on Spring Cloud Stream Applications using the Solace binder
+
 == Stream Applications
 
 In this repository, you will find a collection of components that can meet various data integration use cases and requirements.

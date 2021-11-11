@@ -285,26 +285,17 @@
                                 </maven>
                             </application>
                             <binders>
-                                <kafka>
+                                <solace>
                                     <maven>
                                         <dependencies>
                                             <dependency>
-                                                <groupId>org.springframework.cloud</groupId>
-                                                <artifactId>spring-cloud-stream-binder-kafka</artifactId>
+                                                <groupId>com.solace.spring.cloud</groupId>
+                                                <artifactId>spring-cloud-starter-stream-solace</artifactId>
+                                                <version>3.2.0</version>
                                             </dependency>
                                         </dependencies>
                                     </maven>
-                                </kafka>
-                                <rabbit>
-                                    <maven>
-                                        <dependencies>
-                                            <dependency>
-                                                <groupId>org.springframework.cloud</groupId>
-                                                <artifactId>spring-cloud-stream-binder-rabbit</artifactId>
-                                            </dependency>
-                                        </dependencies>
-                                    </maven>
-                                </rabbit>
+                                </solace>
                             </binders>
                         </global>
                     </configuration>
